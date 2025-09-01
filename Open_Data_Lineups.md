@@ -17,7 +17,8 @@ Lineups Objects
 | jersey_number   | int       | The number on the player's shirt for this match                                                                                                     |
 | country         | object    | The player's nationality, a country object with `id` and `name` attributes                                                                         |
 | cards (*)       | array     | An array of given cards objects to the player with `time`, `card_type`, `reason`, and `period` attributes                                          |
-| positions (*)   | array     | An array of positions objects with `position_id`, `position`, `from`, `to`, `from_period`, `to_period`, `start_reason`,
+| positions (*)   | array     | An array of positions objects with `position_id`, `position`, `from`, `to`, `from_period`, `to_period`, `start_reason`,`end_reason`
+
 
 
 
